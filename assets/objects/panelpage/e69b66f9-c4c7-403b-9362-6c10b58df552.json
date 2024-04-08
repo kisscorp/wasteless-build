@@ -1,0 +1,345 @@
+{
+  "gridItems": [],
+  "panels": [
+    {
+      "settings": [],
+      "panes": [
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<h1>Security</h1>",
+              "computedValue": "<h1>Security</h1>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "heading",
+          "label": "heading",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<p>Security is a vital pillar of our tool. By identifying potential security vulnerabilities in your code, our tool helps prevent breaches that could require additional resources to fix, directly contributing to sustainable coding practices by reducing waste of time, energy, and resources on fixing preventable security issues.</p>",
+              "computedValue": "<p>Security is a vital pillar of our tool. By identifying potential security vulnerabilities in your code, our tool helps prevent breaches that could require additional resources to fix, directly contributing to sustainable coding practices by reducing waste of time, energy, and resources on fixing preventable security issues.</p>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "heading_body",
+          "label": "heading_body",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<h2>Algorithm</h2>",
+              "computedValue": "<h2>Algorithm</h2>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "algorithm",
+          "label": "algorithm",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<p>Our tool leverages cutting-edge algorithms to analyze your Python code for common security vulnerabilities. It scans your code for patterns that are known to lead to security issues, such as code injection, cross-site scripting (XSS), or insecure direct object references.</p>",
+              "computedValue": "<p>Our tool leverages cutting-edge algorithms to analyze your Python code for common security vulnerabilities. It scans your code for patterns that are known to lead to security issues, such as code injection, cross-site scripting (XSS), or insecure direct object references.</p>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "algorthm_body",
+          "label": "algorithm_body",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<h2>How It Works</h2>",
+              "computedValue": "<h2>How It Works</h2>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "how",
+          "label": "how",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "    <ol>\n        <li>Scan Code: Our tool scans your Python code and applies the algorithm to detect potential security issues.</li>\n        <li>Identify Vulnerabilities: The tool identifies sections of code that contain potential security vulnerabilities.</li>\n        <li>Provide Insight: The tool provides detailed insights into the identified vulnerabilities, helping you understand where your code might be at risk.</li>\n        <li>Recommend Improvements: Based on the identified vulnerabilities, the tool suggests ways to refactor your code to eliminate the potential security risks.</li>\n    </ol>",
+              "computedValue": "    <ol>\n        <li>Scan Code: Our tool scans your Python code and applies the algorithm to detect potential security issues.</li>\n        <li>Identify Vulnerabilities: The tool identifies sections of code that contain potential security vulnerabilities.</li>\n        <li>Provide Insight: The tool provides detailed insights into the identified vulnerabilities, helping you understand where your code might be at risk.</li>\n        <li>Recommend Improvements: Based on the identified vulnerabilities, the tool suggests ways to refactor your code to eliminate the potential security risks.</li>\n    </ol>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "how_body",
+          "label": "how_body",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<h2>Sustainable Coding Practices</h2>",
+              "computedValue": "<h2>Sustainable Coding Practices</h2>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "practices",
+          "label": "practices",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "    <p>Prioritizing security in your code has numerous benefits for sustainable coding practices:</p>\n    <ul>\n        <li>Resource Usage: Secure code prevents breaches that could require significant resources and energy to fix, reducing environmental impact.</li>\n        <li>Maintainability: Secure code is more reliable and easier to maintain, reducing the time and resources required for maintenance.</li>\n        <li>Trust: Secure code builds trust with your users, ensuring your software has a longer lifespan and reducing the need for creating new software.</li>\n    </ul>",
+              "computedValue": "    <p>Prioritizing security in your code has numerous benefits for sustainable coding practices:</p>\n    <ul>\n        <li>Resource Usage: Secure code prevents breaches that could require significant resources and energy to fix, reducing environmental impact.</li>\n        <li>Maintainability: Secure code is more reliable and easier to maintain, reducing the time and resources required for maintenance.</li>\n        <li>Trust: Secure code builds trust with your users, ensuring your software has a longer lifespan and reducing the need for creating new software.</li>\n    </ul>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "practices_body",
+          "label": "practices body",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": " <p>By using our tool to enhance the security of your code, you're not only creating more reliable and trustworthy software - you're also contributing to more sustainable software development.</p>",
+              "computedValue": " <p>By using our tool to enhance the security of your code, you're not only creating more reliable and trustworthy software - you're also contributing to more sustainable software development.</p>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "security",
+          "label": "security",
+          "contentPlugin": "snippet"
+        }
+      ],
+      "stylePlugin": "",
+      "columnSetting": {
+        "settings": []
+      }
+    }
+  ],
+  "contexts": [],
+  "rowSettings": [
+    {
+      "settings": []
+    }
+  ],
+  "entityPermissions": {
+    "readUserIds": [
+      "*"
+    ],
+    "writeUserIds": [],
+    "deleteUserIds": []
+  },
+  "id": "e69b66f9-c4c7-403b-9362-6c10b58df552",
+  "layoutType": "gridless",
+  "displayType": "page",
+  "name": "security",
+  "title": "security",
+  "site": "wastless",
+  "path": "/security",
+  "userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453",
+  "persistence": {
+    "dataduct": {
+      "settings": []
+    }
+  },
+  "interactions": {
+    "interactions": {
+      "listeners": []
+    }
+  },
+  "layoutSetting": {
+    "settings": []
+  }
+}

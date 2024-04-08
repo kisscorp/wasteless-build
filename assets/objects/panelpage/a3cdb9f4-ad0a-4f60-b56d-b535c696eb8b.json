@@ -1,0 +1,345 @@
+{
+  "gridItems": [],
+  "panels": [
+    {
+      "settings": [],
+      "panes": [
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": " <h1>Calculation of Sustainability Grade</h1>",
+              "computedValue": " <h1>Calculation of Sustainability Grade</h1>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "heading",
+          "label": "heading",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<p>Our tool calculates a sustainability grade for your code based on the metrics gathered from Radon, CPD, and Bandit. This grade represents the overall sustainability of your code, reflecting its simplicity, efficiency, and security. Here's how the calculation works:</p>",
+              "computedValue": "<p>Our tool calculates a sustainability grade for your code based on the metrics gathered from Radon, CPD, and Bandit. This grade represents the overall sustainability of your code, reflecting its simplicity, efficiency, and security. Here's how the calculation works:</p>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "heading_body",
+          "label": "Heading Body",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<h2>Gather Metrics</h2>",
+              "computedValue": "<h2>Gather Metrics</h2>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "gather",
+          "label": "gather",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<p>First, our tool uses Radon to calculate the complexity of the code, CPD to identify duplicates, and Bandit to identify security issues. Each tool provides a numeric score or count, representing the extent of complexity, duplication, and potential security vulnerabilities in your code respectively.</p>",
+              "computedValue": "<p>First, our tool uses Radon to calculate the complexity of the code, CPD to identify duplicates, and Bandit to identify security issues. Each tool provides a numeric score or count, representing the extent of complexity, duplication, and potential security vulnerabilities in your code respectively.</p>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "gather_body",
+          "label": "Gather Body",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<h2>Normalize Scores</h2>",
+              "computedValue": "<h2>Normalize Scores</h2>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "normalize",
+          "label": "normalize",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<p>Next, we normalize the scores from each tool to a common scale, such as 0-100. This is done by dividing each score by the maximum possible score or the highest score in your dataset. Normalizing the scores allows us to compare and combine them meaningfully, despite each score being calculated differently.</p>",
+              "computedValue": "<p>Next, we normalize the scores from each tool to a common scale, such as 0-100. This is done by dividing each score by the maximum possible score or the highest score in your dataset. Normalizing the scores allows us to compare and combine them meaningfully, despite each score being calculated differently.</p>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "normalize_body",
+          "label": "Normalize Body",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<h2>Calculate Weighted Average</h2>",
+              "computedValue": "<h2>Calculate Weighted Average</h2>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "calculate",
+          "label": "calculate",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<p>Finally, we calculate a weighted average of the normalized scores to get the final sustainability grade. Each pillar (simplicity, efficiency, and security) is assigned a weight representing its importance. For example, if complexity and duplication are each 30% of the grade, and security is 40%, the final grade would be calculated as follows: `0.3*Normalized Radon Score + 0.3*Normalized CPD Score + 0.4*Normalized Bandit Score`.</p>",
+              "computedValue": "<p>Finally, we calculate a weighted average of the normalized scores to get the final sustainability grade. Each pillar (simplicity, efficiency, and security) is assigned a weight representing its importance. For example, if complexity and duplication are each 30% of the grade, and security is 40%, the final grade would be calculated as follows: `0.3*Normalized Radon Score + 0.3*Normalized CPD Score + 0.4*Normalized Bandit Score`.</p>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "calculate_body",
+          "label": "Calculate Body",
+          "contentPlugin": "snippet"
+        },
+        {
+          "settings": [
+            {
+              "attributes": [],
+              "name": "contentType",
+              "displayName": "Content Type",
+              "type": 1,
+              "value": "text/html",
+              "computedValue": "text/html"
+            },
+            {
+              "attributes": [],
+              "name": "content",
+              "displayName": "Content",
+              "type": 1,
+              "value": "<p>This calculated sustainability grade provides a comprehensive measure of the sustainability of your code, taking into account its simplicity, efficiency, and security. By striving to improve your sustainability grade, you can contribute to more sustainable software development and a greener future.</p>",
+              "computedValue": "<p>This calculated sustainability grade provides a comprehensive measure of the sustainability of your code, taking into account its simplicity, efficiency, and security. By striving to improve your sustainability grade, you can contribute to more sustainable software development and a greener future.</p>"
+            },
+            {
+              "attributes": [],
+              "name": "jsScript",
+              "displayName": "jsScript",
+              "type": 1,
+              "value": null,
+              "computedValue": null
+            }
+          ],
+          "locked": false,
+          "contexts": [],
+          "name": "conclusion",
+          "label": "conclusion",
+          "contentPlugin": "snippet"
+        }
+      ],
+      "stylePlugin": "",
+      "columnSetting": {
+        "settings": []
+      }
+    }
+  ],
+  "contexts": [],
+  "rowSettings": [
+    {
+      "settings": []
+    }
+  ],
+  "entityPermissions": {
+    "readUserIds": [
+      "*"
+    ],
+    "writeUserIds": [],
+    "deleteUserIds": []
+  },
+  "id": "a3cdb9f4-ad0a-4f60-b56d-b535c696eb8b",
+  "layoutType": "gridless",
+  "displayType": "page",
+  "name": "calculation",
+  "title": "Calculation",
+  "site": "wasteless",
+  "path": "/calculation",
+  "userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453",
+  "persistence": {
+    "dataduct": {
+      "settings": []
+    }
+  },
+  "interactions": {
+    "interactions": {
+      "listeners": []
+    }
+  },
+  "layoutSetting": {
+    "settings": []
+  }
+}
