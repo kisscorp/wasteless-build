@@ -19,8 +19,8 @@
               "name": "content",
               "displayName": "Content",
               "type": 1,
-              "value": "<h1>Installation</h1>",
-              "computedValue": "<h1>Installation</h1>"
+              "value": "<h1>Bandit</h1>",
+              "computedValue": "<h1>Bandit</h1>"
             },
             {
               "attributes": [],
@@ -33,8 +33,8 @@
           ],
           "locked": false,
           "contexts": [],
-          "name": "installation",
-          "label": "Installation",
+          "name": "heading",
+          "label": "heading",
           "contentPlugin": "snippet"
         },
         {
@@ -52,8 +52,8 @@
               "name": "content",
               "displayName": "Content",
               "type": 1,
-              "value": "<p>Getting started with our tool is simple and straightforward. Here's a step-by-step guide on how to install and set up the extension on Visual Studio Code.</p>",
-              "computedValue": "<p>Getting started with our tool is simple and straightforward. Here's a step-by-step guide on how to install and set up the extension on Visual Studio Code.</p>"
+              "value": "<p>Bandit is a comprehensive tool designed to find common security issues in Python code. It performs a static analysis of Python applications, giving developers a way to effectively identify security vulnerabilities. In our tool, we utilize Bandit to enhance the security of your Python code, contributing directly to sustainable coding practices by reducing the waste of resources and energy on fixing preventable security issues.</p>",
+              "computedValue": "<p>Bandit is a comprehensive tool designed to find common security issues in Python code. It performs a static analysis of Python applications, giving developers a way to effectively identify security vulnerabilities. In our tool, we utilize Bandit to enhance the security of your Python code, contributing directly to sustainable coding practices by reducing the waste of resources and energy on fixing preventable security issues.</p>"
             },
             {
               "attributes": [],
@@ -66,8 +66,8 @@
           ],
           "locked": false,
           "contexts": [],
-          "name": "getting_started",
-          "label": "Getting Started",
+          "name": "intro",
+          "label": "intro",
           "contentPlugin": "snippet"
         },
         {
@@ -85,8 +85,8 @@
               "name": "content",
               "displayName": "Content",
               "type": 1,
-              "value": "<h2>Prerequisites</h2>",
-              "computedValue": "<h2>Prerequisites</h2>"
+              "value": "<h2>How It Works</h2>",
+              "computedValue": "<h2>How It Works</h2>"
             },
             {
               "attributes": [],
@@ -99,8 +99,8 @@
           ],
           "locked": false,
           "contexts": [],
-          "name": "prerequisites",
-          "label": "Prerequisites",
+          "name": "how",
+          "label": "How",
           "contentPlugin": "snippet"
         },
         {
@@ -118,8 +118,8 @@
               "name": "content",
               "displayName": "Content",
               "type": 1,
-              "value": "<p>Before you begin, ensure that you have the following installed on your system:</p>\n\n<ol>\n<li>The latest version of Visual Studio Code. Our tool is compatible with all platforms that VS Code supports, including Windows, macOS, and Linux.</li>\n<li>Docker: Docker is a platform that allows you to automate the deployment, scaling, and management of applications. You can download Docker from the official Docker website.</li>\n<li>Docker Compose: Docker Compose is a tool for defining and running multi-container Docker applications. It uses YAML files to configure the application's services and performs the creation and start-up process of all the containers with a single command. You can download Docker Compose from the Docker website.</li>\n</ol>",
-              "computedValue": "<p>Before you begin, ensure that you have the following installed on your system:</p>\n\n<ol>\n<li>The latest version of Visual Studio Code. Our tool is compatible with all platforms that VS Code supports, including Windows, macOS, and Linux.</li>\n<li>Docker: Docker is a platform that allows you to automate the deployment, scaling, and management of applications. You can download Docker from the official Docker website.</li>\n<li>Docker Compose: Docker Compose is a tool for defining and running multi-container Docker applications. It uses YAML files to configure the application's services and performs the creation and start-up process of all the containers with a single command. You can download Docker Compose from the Docker website.</li>\n</ol>"
+              "value": "    <ol>\n        <li>Code Analysis: When our tool scans your Python code, it uses Bandit to analyze the code and identify potential security vulnerabilities.</li>\n        <li>Vulnerability Detection: Bandit checks your code against a set of predefined tests, flagging the parts of your code that match common security issues such as code injection, cross-site scripting (XSS), or insecure direct object references.</li>\n        <li>Insight Provision: The tool provides detailed insights into the identified vulnerabilities, helping you understand where your code might be at risk.</li>\n        <li>Recommend Improvements: Based on the identified vulnerabilities, the tool suggests ways to refactor your code to eliminate the potential security risks.</li>\n    </ol>",
+              "computedValue": "    <ol>\n        <li>Code Analysis: When our tool scans your Python code, it uses Bandit to analyze the code and identify potential security vulnerabilities.</li>\n        <li>Vulnerability Detection: Bandit checks your code against a set of predefined tests, flagging the parts of your code that match common security issues such as code injection, cross-site scripting (XSS), or insecure direct object references.</li>\n        <li>Insight Provision: The tool provides detailed insights into the identified vulnerabilities, helping you understand where your code might be at risk.</li>\n        <li>Recommend Improvements: Based on the identified vulnerabilities, the tool suggests ways to refactor your code to eliminate the potential security risks.</li>\n    </ol>"
             },
             {
               "attributes": [],
@@ -132,8 +132,8 @@
           ],
           "locked": false,
           "contexts": [],
-          "name": "prerequisites_content",
-          "label": "Prerequisites Content",
+          "name": "how_body",
+          "label": "how body",
           "contentPlugin": "snippet"
         },
         {
@@ -151,8 +151,8 @@
               "name": "content",
               "displayName": "Content",
               "type": 1,
-              "value": "<h2>Steps</h2>",
-              "computedValue": "<h2>Steps</h2>"
+              "value": "<h2>Sustainable Coding Practices</h2>",
+              "computedValue": "<h2>Sustainable Coding Practices</h2>"
             },
             {
               "attributes": [],
@@ -165,8 +165,8 @@
           ],
           "locked": false,
           "contexts": [],
-          "name": "steps",
-          "label": "Steps",
+          "name": "practices",
+          "label": "practices",
           "contentPlugin": "snippet"
         },
         {
@@ -184,8 +184,8 @@
               "name": "content",
               "displayName": "Content",
               "type": 1,
-              "value": "<ol>\n<li>Open Visual Studio Code: Launch your Visual Studio Code editor.</li>\n<li>Access Extension Marketplace: Navigate to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.</li>\n<li>Search for Our Tool: In the Extensions view search box, type the name of our tool. This will bring up a list of matching results.</li>\n<li>Install Our Tool: Find our tool in the search results and click on the install button.</li>\n<li>Confirm Installation: Once the installation is complete, you will see an uninstall button in place of the install button. This confirms that the tool has been installed successfully.</li>\n<li>Reload Visual Studio Code: After the installation is complete, reload Visual Studio Code to activate the extension.</li>\n</ol>",
-              "computedValue": "<ol>\n<li>Open Visual Studio Code: Launch your Visual Studio Code editor.</li>\n<li>Access Extension Marketplace: Navigate to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.</li>\n<li>Search for Our Tool: In the Extensions view search box, type the name of our tool. This will bring up a list of matching results.</li>\n<li>Install Our Tool: Find our tool in the search results and click on the install button.</li>\n<li>Confirm Installation: Once the installation is complete, you will see an uninstall button in place of the install button. This confirms that the tool has been installed successfully.</li>\n<li>Reload Visual Studio Code: After the installation is complete, reload Visual Studio Code to activate the extension.</li>\n</ol>"
+              "value": "    <p>Integrating Bandit in our tool offers several benefits for sustainable coding practices:</p>\n    <ul>\n        <li>Security: By identifying and rectifying potential security vulnerabilities, Bandit helps to create more secure code. Secure code prevents breaches that could require significant resources and energy to fix, reducing environmental impact.</li>\n        <li>Maintainability: Secure code is more reliable and easier to maintain, reducing the time and resources required for maintenance.</li>\n        <li>Trust: Secure code builds trust with your users, ensuring your software has a longer lifespan and reducing the need for creating new software.</li>\n    </ul>",
+              "computedValue": "    <p>Integrating Bandit in our tool offers several benefits for sustainable coding practices:</p>\n    <ul>\n        <li>Security: By identifying and rectifying potential security vulnerabilities, Bandit helps to create more secure code. Secure code prevents breaches that could require significant resources and energy to fix, reducing environmental impact.</li>\n        <li>Maintainability: Secure code is more reliable and easier to maintain, reducing the time and resources required for maintenance.</li>\n        <li>Trust: Secure code builds trust with your users, ensuring your software has a longer lifespan and reducing the need for creating new software.</li>\n    </ul>"
             },
             {
               "attributes": [],
@@ -198,8 +198,8 @@
           ],
           "locked": false,
           "contexts": [],
-          "name": "steps_content",
-          "label": "Steps Content",
+          "name": "practices_body",
+          "label": "Practices Body",
           "contentPlugin": "snippet"
         },
         {
@@ -217,8 +217,8 @@
               "name": "content",
               "displayName": "Content",
               "type": 1,
-              "value": "<p>Now, our tool is ready to use. In the following sections, you will find detailed information about how to use our tool to simplify your code, reduce duplication, and identify security vulnerabilities.</p>\n\n<p>For any installation issues, please refer to the Troubleshooting section or feel free to reach out to our support team. We're here to assist you in your journey towards more sustainable software development.</p>",
-              "computedValue": "<p>Now, our tool is ready to use. In the following sections, you will find detailed information about how to use our tool to simplify your code, reduce duplication, and identify security vulnerabilities.</p>\n\n<p>For any installation issues, please refer to the Troubleshooting section or feel free to reach out to our support team. We're here to assist you in your journey towards more sustainable software development.</p>"
+              "value": "<p>By using Bandit as part of our tool, we provide developers with a powerful way to enhance the security of their code, thereby contributing to more sustainable software development.</p>",
+              "computedValue": "<p>By using Bandit as part of our tool, we provide developers with a powerful way to enhance the security of their code, thereby contributing to more sustainable software development.</p>"
             },
             {
               "attributes": [],
@@ -231,13 +231,11 @@
           ],
           "locked": false,
           "contexts": [],
-          "name": "end",
-          "label": "End",
+          "name": "conclusion",
+          "label": "conclusiojn",
           "contentPlugin": "snippet"
         }
       ],
-      "name": "getting_started",
-      "label": "Getting Started",
       "stylePlugin": "",
       "columnSetting": {
         "settings": []
@@ -257,13 +255,13 @@
     "writeUserIds": [],
     "deleteUserIds": []
   },
-  "id": "cfeccfe3-78c3-41ef-ac97-2e16ed2f0a4e",
+  "id": "e61f135a-9625-4226-a545-15dd6116adc7",
   "layoutType": "gridless",
   "displayType": "page",
-  "name": "installation",
-  "title": "Installation",
-  "site": "wasteless",
-  "path": "/installation",
+  "name": "bandit",
+  "title": "Bandit",
+  "site": "wastless",
+  "path": "/bandit",
   "userId": "b7a9bac5-5fef-4aa6-bf12-d536c156e453",
   "persistence": {
     "dataduct": {
